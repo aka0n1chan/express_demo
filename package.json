@@ -1,0 +1,30 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.12",
+    "@types/mongodb": "^3.6.17",
+    "awesome-typescript-loader": "^5.2.1",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "mongodb": "^3.6.9",
+    "source-map-loader": "^3.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "tslint-config-airbnb": "^5.11.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
